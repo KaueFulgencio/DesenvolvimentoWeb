@@ -54,7 +54,6 @@ while(x < 10){
 for(a = 0; a < 5; a++){
     document.write("<br> O valor de x eh: " + a);
 }
-*/
 
 var peso;
 var altura;
@@ -84,3 +83,18 @@ function calcular(event){
     document.getElementById('peso').value = '';
     document.getElementById('altura').value = '';
 }
+
+//===============TEMPORIZADORES==============================
+function acao(){
+    document.write("Executando... </br>")
+}
+
+setInterval(acao,5000);
+
+setTimeout(acao, 3000);
+
+//TIPOS VARIAVEIS
+var nome = kaue; //pode ser acessada dentro de outros blocos
+let nome = pedro; // pode ser acessada apenas no bloco que foi declarada
+const nome = josé; // não pode ser alterada em lugar nenhum
+*/
