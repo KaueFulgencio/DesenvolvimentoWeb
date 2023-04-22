@@ -98,3 +98,18 @@ var nome = kaue; //pode ser acessada dentro de outros blocos
 let nome = pedro; // pode ser acessada apenas no bloco que foi declarada
 const nome = josé; // não pode ser alterada em lugar nenhum
 */
+
+//=======OBJETOS=====================
+let pessoa = {
+    nome: "Manuela",
+    idade: 26,
+    altura: 1.85,
+    cargo: "Programador Senior"
+}
+
+let usuarios = [
+    {nome: "Eduardo", cargo: "Dev Fullstack", status: "Ativo"},
+    {nome: "Paulo", cargo: "Dev Fullstack", status: "Ativo"},
+    {nome: "Fernanda", cargo: "Dev Fullstack", status: "Ativo"}
+]
+
